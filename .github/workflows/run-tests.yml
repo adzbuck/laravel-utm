@@ -18,7 +18,7 @@ jobs:
             phpunit: 12.*
           - laravel: 11.*
             contracts: 11.*
-            testbench: 10.*
+            testbench: 9.*
             phpunit: 12.*
           - laravel: 10.*
             contracts: 10.*
