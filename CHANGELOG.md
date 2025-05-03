@@ -2,7 +2,7 @@
 
 All notable changes to `laravel-utm` will be documented in this file
 
-## 2.0.10 - 2023-04-14
+## 2.0.10 - 2025-05-03
 
 * Added support for PHP 8.0
 * Added support for Laravel 11 & Laravel 12
