@@ -32,7 +32,7 @@ class Store
         array|string $key,
         mixed $default = null,
     ): mixed {
-        /** @var StoreType::Seesion|StoreType::Cookie $storeType */
+        /** @var StoreType::Session|StoreType::Cookie $storeType */
         $storeType = config('laravel-utm.store');
         return match ($storeType) {
             StoreType::Session => Session::get($key, $default),
