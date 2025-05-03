@@ -55,7 +55,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          composer remove vimeo/psalm
+          composer remove vimeo/psalm friendsofphp/php-cs-fixer
           composer require "laravel/framework:${{ matrix.laravel }}" "phpunit/phpunit:${{ matrix.phpunit }}" "illuminate/contracts:${{ matrix.contracts }}" "orchestra/testbench:${{ matrix.testbench }}" --no-interaction --no-update
           composer update --${{ matrix.stability }} --prefer-dist --no-interaction
 
