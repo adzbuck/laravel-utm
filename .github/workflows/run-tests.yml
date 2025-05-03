@@ -15,19 +15,19 @@ jobs:
           - laravel: 12.*
             contracts: 12.*
             testbench: 10.*
-            phpunit: 12.*
+            phpunit: ^11.5.3
           - laravel: 11.*
             contracts: 11.*
             testbench: 9.*
-            phpunit: 12.*
+            phpunit: ^11.0.1
           - laravel: 10.*
             contracts: 10.*
             testbench: 8.*
-            phpunit: 10.*
+            phpunit: ^10.1
           - laravel: 9.*
             contracts: 9.*
             testbench: 7.*
-            phpunit: 9.*
+            phpunit: ^9.5.10
         exclude:
           - laravel: 11.*
             php: 8.0
